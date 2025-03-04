@@ -6,7 +6,7 @@ const {width, height} = Dimensions.get('window');
 const SplashScreen = ({navigation}) => {
   useEffect(() => {
     setTimeout(() => {
-      navigation.replace('Landing'); // Navigate to Login screen
+      navigation.replace('Landing'); // Navigate to Landing screen
     }, 3000);
   }, [navigation]);
 
