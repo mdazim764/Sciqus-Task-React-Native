@@ -15,7 +15,7 @@ import {
 import {launchCamera, launchImageLibrary} from 'react-native-image-picker';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
-const windowWidth = Dimensions.get('window').width;
+const windowWidth = Dimensions.get('window').width - 60;
 const numColumns = 2;
 const containerMargin = 10; // total horizontal margin (adjust as needed)
 const imageContainerWidth =
@@ -220,7 +220,7 @@ const styles = StyleSheet.create({
     marginBottom: 15,
   },
   button: {
-    backgroundColor: '#1E90FF',
+    backgroundColor: '#2348fc',
     padding: 10,
     borderRadius: 8,
     width: '45%',
