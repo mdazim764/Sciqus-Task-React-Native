@@ -29,6 +29,7 @@ export default function App() {
             headerTitleStyle: {fontWeight: 'bold'},
           }}
         />
+
         <Stack.Screen
           name="Login"
           component={LoginScreen}
