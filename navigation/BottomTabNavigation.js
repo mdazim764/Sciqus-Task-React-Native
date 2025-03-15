@@ -28,10 +28,7 @@ const BottomTabNavigator = () => {
 
       {/* SHIFT the main content by marginLeft */}
       <View
-        style={[
-          styles.tabContainer,
-          {marginLeft: sidebarCollapsed ? 55 : 240},
-        ]}>
+        style={[styles.tabContainer, {marginLeft: sidebarCollapsed ? 55 : 55}]}>
         <Tab.Navigator
           initialRouteName="Home" // Home is open by default
           screenOptions={({route}) => ({

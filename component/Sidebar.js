@@ -74,7 +74,7 @@ const Sidebar = ({collapsed, setCollapsed}) => {
 
   // Dynamic icon and label for the toggle button
   const toggleIcon = collapsed ? 'chevron-right' : 'chevron-left';
-  const toggleLabel = collapsed ? 'Expand Sidebar' : 'Collapse Sidebar';
+  const toggleLabel = collapsed ? '' : '';
 
   return (
     <View style={[styles.container, {width: collapsed ? 55 : 240}]}>
